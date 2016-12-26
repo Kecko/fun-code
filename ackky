@@ -1,1 +1,15 @@
+#anyone can commit to this project, it's for all of us to create
+COMMAND1 = ""
+
+# Your handling code goes in this function
+def handle_command(command):
+    """
+        Determine if the command is valid. If so, take action and return
+        a response, if necessary.
+    """
+    response = ""
+    if command.find(COMMAND1) >= 0:
+        response = ""
+        
+return response
 
